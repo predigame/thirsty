@@ -3,7 +3,7 @@ HEIGHT = 20
 TITLE = 'Thirsty Zombie'
 
 # load in the stormy background
-BACKGROUND = 'stormy'
+background('stormy')
 
 # create a zombie sprite. flip the sprite so the zombie faces to the right
 zombie = image('zombie-2', (5, 15), size = 3).speed(10).flip()
